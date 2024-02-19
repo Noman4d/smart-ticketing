@@ -115,7 +115,7 @@
           </div>
           <div class="bg-[#1DD10026] w-[180px] flex items-center justify-center ">
             <img src="./images/seat-green.png" alt="">
-            <p class="text-[#1DD100]">40 Seats left</p>
+            <p id="left-seat" class="text-[#1DD100]">40 Seats left</p>
           </div>
          </div>
          <!-- ..................... -->
@@ -169,56 +169,56 @@
         <!-- ........................ -->
         
           <div class=" mt-[150px] grid grid-cols-5 gap-10 border w-[600px]">
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">A</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">A1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">A2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">A3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">A4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">B</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">B1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">B2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">B3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">B4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">C</p> 
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">C1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">C2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">C3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">C4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">D</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">D1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">D2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">D3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">D4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">E</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">E1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">E2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">E3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">E4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">F</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">F1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">F2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">F3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">F4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">G</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">G1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">G2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">G3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">G4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">H</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">H1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">H2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">H3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">H4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">I</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">I1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">I2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">I3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">I4</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">J</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">J1</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">J2</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">J3</p>
-            <p class="w-28 h-14 bg-[#F7F8F8] text-center">J4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">A</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">A1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">A2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">A3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">A4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">B</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">B1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">B2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">B3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">B4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">C</p> 
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">C1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">C2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">C3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">C4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">D</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">D1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">D2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">D3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">D4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">E</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">E1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">E2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">E3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">E4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">F</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">F1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">F2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">F3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">F4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">G</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">G1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">G2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">G3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">G4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">H</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">H1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">H2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">H3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">H4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">I</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">I1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">I2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">I3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">I4</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">J</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">J1</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">J2</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">J3</p>
+            <p class="w-28 h-14 bg-[#F7F8F8] text-center btn-select">J4</p>
           </div>
         
         </section>
@@ -226,7 +226,7 @@
         <Section class="font-raleway">
           <h1 class="text-2xl font-semibold">Select Your Seat</h1>
           <div class="flex gap-28 mt-20 border-b-2">
-            <p>Seat <span class="bg-[#1DD100] rounded-xl px-3">2</span></p>
+            <p >Seat <span id="add-seat" class="bg-[#1DD100] rounded-xl px-3">0</span></p>
             <p>Class</p>
             <p>Price</p>
           </div>
@@ -268,5 +268,6 @@
          <button class="btn  px-[200px] mt-8 bg-[#1DD100] border-none">Secondary</button>
         </Section>
       </section>
+      <script src="./js/index.js"></script>
     </main>
 </html>
