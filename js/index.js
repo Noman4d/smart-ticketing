@@ -12,5 +12,13 @@ for (const btn of allBtn) {
         leftseats.innerText=leftSeat;
         addSeat = addSeat + 1;
         document.getElementById('add-seat').innerText=addSeat;
+        
     })
 }
+
+const scroll = document.getElementById('scroll-down');
+
+scroll.addEventListener('click',function () {
+    const scrollTargett=document.getElementById('scroll-target');
+    scrollTargett.scrollIntoView({ behavior: 'smooth' });
+})
