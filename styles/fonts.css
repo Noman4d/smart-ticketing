@@ -10,9 +10,9 @@
 
 li{
     display: flex;
-    
+    gap: 112px;
 }
-li p{
+/* li p{
     margin-right: 125px;
     
-}
+} */

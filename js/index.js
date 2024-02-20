@@ -23,7 +23,7 @@ for (const btn of allBtn) {
     p2.innerText = "Economoy";
     const p3 = document.createElement("p");
     p3.innerText = "550";
-    const converTedp3 = parseInt(p2);
+    // const converTedp3 = parseInt(p3);
 
     const ticketConteiner = document.createElement("li");
 
@@ -32,6 +32,13 @@ for (const btn of allBtn) {
     ticketConteiner.appendChild(p3);
 
     ulConteiner.appendChild(ticketConteiner);
+
+    const totalCost = document.getElementById("total-cost").innerText;
+    
+    const totalCost2 = parseInt(totalCost);
+    
+    document.getElementById('total-cost').innerText = totalCost2 + 550;
+  
   });
 }
 
