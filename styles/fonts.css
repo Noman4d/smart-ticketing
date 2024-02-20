@@ -7,3 +7,12 @@
     font-weight: weight;
     font-style: normal;
 }
+
+li{
+    display: flex;
+    
+}
+li p{
+    margin-right: 125px;
+    
+}
