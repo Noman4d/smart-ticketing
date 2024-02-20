@@ -13,8 +13,15 @@ for (const btn of allBtn) {
         addSeat = addSeat + 1;
         document.getElementById('add-seat').innerText=addSeat;
         
+        const seatNumber = btn.innerText;
+
+        const p1 = document.createElement('p');
+        p1.innerText = 'Economoy'
+        console.log(p1.innerText);
     })
 }
+
+// scroll down //
 
 const scroll = document.getElementById('scroll-down');
 
