@@ -34,19 +34,43 @@ for (const btn of allBtn) {
     ulConteiner.appendChild(ticketConteiner);
 
     const totalCost = document.getElementById("total-cost").innerText;
-    
+
     const totalCost2 = parseInt(totalCost);
-    
-    document.getElementById('total-cost').innerText = totalCost2 + 550;
-  
+
+    const lastTotal = document.getElementById("total-cost").innerText = totalCost2 + 550;
+
+    let cost = document.getElementById("grand").innerText;
+    let grandTotal = parseInt(cost);
+    let lastGrand = document.getElementById('grand').innerText = lastTotal;
+
+    document.getElementById('cupon-btn',addEventListener('click',
+    function cupon() {
+      const cupnCode = document.getElementById('coupon-field');
+      if (cupnCode.value=='New 15') {
+        document.getElementById('grand').innerText = lastTotal - (lastTotal*0.15);
+      }
+      else{
+        if (cupnCode.value=='Couple 20') {
+          document.getElementById('grand').innerText = lastTotal - (lastTotal*0.20);
+        }
+      }
+    }))
   });
 }
 
 // scroll down //
 
+  
+  
+
+  
+
+
 const scroll = document.getElementById("scroll-down");
+
 
 scroll.addEventListener("click", function () {
   const scrollTargett = document.getElementById("scroll-target");
   scrollTargett.scrollIntoView({ behavior: "smooth" });
 });
+
